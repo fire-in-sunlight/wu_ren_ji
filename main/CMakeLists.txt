@@ -1,6 +1,7 @@
 idf_component_register(
     SRCS 
         "main.cpp"
+        "test.cpp"
     INCLUDE_DIRS 
         "."
     REQUIRES 
