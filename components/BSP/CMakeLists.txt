@@ -3,6 +3,7 @@ idf_component_register(
     SRCS 
         "motor.cpp"
         "mpu6050.cpp"
+        "camera.cpp"
     INCLUDE_DIRS 
         "."
     REQUIRES 

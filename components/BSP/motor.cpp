@@ -59,3 +59,7 @@ void Motor_arm_change(bool get_arm) {
         Motor_stop();
     }
 }
+
+bool Motor_is_armed() {
+    return arm;
+}
