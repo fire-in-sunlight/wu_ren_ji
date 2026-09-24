@@ -1,0 +1,20 @@
+# 注册 Middlewares 组件
+idf_component_register(
+    SRCS 
+        "flight_controller.cpp" 
+        "pid.cpp"
+        "protect.cpp"
+        "WiFi.cpp"
+    INCLUDE_DIRS
+        "." 
+    REQUIRES 
+        BSP
+        cxx
+        esp_timer
+        nvs_flash
+        esp_wifi
+        esp_event
+        lwip
+    PRIV_REQUIRES
+        freertos
+)
