@@ -37,4 +37,11 @@
 #define MOTOR_P 1
 #define MOTOR_I 1
 #define MOTOR_D 1
+
+#define WIFI_SSID       "HONOR"
+#define WIFI_PASSWORD   "129687444"
+
+#define UDP_LOCAL_PORT  3333          // 本机监听端口（收遥控）
+#define UDP_REMOTE_PORT 3334          // 地面站端口（发遥测）
+
 #endif

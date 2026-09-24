@@ -14,13 +14,6 @@
 
 static const char *TAG = "WiFi";
 
-// ==================== 配置 ====================
-#define WIFI_SSID       "your_wifi_ssid"
-#define WIFI_PASSWORD   "your_wifi_password"
-
-#define UDP_LOCAL_PORT  3333          // 本机监听端口（收遥控）
-#define UDP_REMOTE_PORT 3334          // 地面站端口（发遥测）
-
 // ==================== 状态 ====================
 static bool              g_connected = false;
 static int               g_sock      = -1;
